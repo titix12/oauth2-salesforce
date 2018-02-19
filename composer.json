@@ -1,5 +1,5 @@
 {
-    "name": "stevenmaguire/oauth2-salesforce",
+    "name": "titix12/oauth2-salesforce",
     "description": "Salesforce OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
