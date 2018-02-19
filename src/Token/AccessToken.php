@@ -27,6 +27,7 @@ class AccessToken extends \League\OAuth2\Client\Token\AccessToken
         parent::__construct($options);
 
         $this->instanceUrl = $options['instance_url'];
+        $this->expires = $options['issued_at']/1000 + 3600 ;
     }
 
     /**
